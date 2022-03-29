@@ -33,7 +33,7 @@ for example, if for the series data you got id = `1234`, and the slices array ha
 To get you up to speed, a basic interface view controller is already set up with a UISlider and a UIImageView.</br>
 use that view controller for displaying the results.</br>
 you are free to extend or change it as you wish.
-#### SwiftUI
+##### SwiftUI
 A SwiftUI skeleton project is also available. SeriesView is set up with an image and a slider as well.
 
 ### Guidelines
