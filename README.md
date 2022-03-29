@@ -29,5 +29,8 @@ path: `series/[series id]/slice/[slice image name]`</br>
 for example, if for the series data you got id = `1234`, and the slices array had the slice `"10"`, to get the actual image data for that slice, load `https://viz-assignment.herokuapp.com/series/1234/slice/10`
 
 ### Guidelines
-
 • No usage of third party code is allowed.
+
+### Submission
+• First, clone this repo and create a branch with your full name
+• Commit the changes to your branch.
