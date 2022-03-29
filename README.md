@@ -43,7 +43,7 @@ A SwiftUI skeleton project is also available. SeriesView is set up with an image
 • Although this is a "single view" task, you should design the execution properly. Think about architecture, networking, modeling, efficiency, error handling and stability. Feel free to change the project as you will, as long as you display the viewer with the required functionality.</br>
 • You have an hour and a half to complete the task.
 #### Bonus points
-• Setting up a caching mechanism for the photos (you are not required to cache the images by default. They can persist in memory as well).
+• Setting up a caching mechanism for the photos (you are not required to cache the images by default. They can persist in memory as well).</br>
 • Show a loading indicator until all images are ready.
 
 ### Submission
