@@ -28,6 +28,11 @@ To get a slice image, you should construct a url as follows:</br>
 path: `series/[series id]/slice/[slice image name]`</br>
 for example, if for the series data you got id = `1234`, and the slices array had the slice `"10"`, to get the actual image data for that slice, load `https://viz-assignment.herokuapp.com/series/1234/slice/10`
 
+#### Implementation
+To get you up to speed, a basic interface view controller is already set up with a UISlider and a UIImageView.</br>
+use that view controller for displaying the results.</br>
+you are free to extend or change it as you wish.
+
 ### Guidelines
 • No usage of third party code is allowed.
 
