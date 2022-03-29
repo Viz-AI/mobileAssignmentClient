@@ -37,10 +37,14 @@ you are free to extend or change it as you wish.
 A SwiftUI skeleton project is also available. SeriesView is set up with an image and a slider as well.
 
 ### Guidelines
+• The images must be presented and corrospond (when moving the slider) to the order in which they appear in the series result.</br>
 • Usage of third party code is allowed (packages, pods etc).</br>
 • Select Swift + UIKit or SwiftUI for your implementation.</br>
-• Although this is a "single view" task, you should design the execution properly. Think about architecture, networking and modeling. Feel free to change the project as you will, as long as you display the viewer with the required functionality.
+• Although this is a "single view" task, you should design the execution properly. Think about architecture, networking, modeling, efficiency, error handling and stability. Feel free to change the project as you will, as long as you display the viewer with the required functionality.</br>
 • You have an hour and a half to complete the task.
+#### Bonus points
+• Setting up a caching mechanism for the photos (you are not required to cache the images by default. They can persist in memory as well).
+• Show a loading indicator until all images are ready.
 
 ### Submission
 When done, compress the xcode project and send it by mail.
