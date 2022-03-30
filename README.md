@@ -45,6 +45,6 @@ A SwiftUI skeleton project is also available. SeriesView is set up with an image
 #### Bonus points
 • Setting up a caching mechanism for the photos (you are not required to cache the images by default. They can persist in memory as well)[^1].</br>
 • Show a loading indicator until all images are ready.
-[^*]: If you use a third party library to load the images, and that library does caching as well, no bonus points will vount towards that.
+[^1]: If you use a third party library to load the images, and that library does caching as well, it's fine, but no bonus points will count towards that.
 ### Submission
 When done, compress the xcode project and send it by mail.
