@@ -20,13 +20,13 @@ result: a json of the form
 ```
 {
   id: String - the series id
-  slices: [String] - an array of slice image names, e.g ["0", "1", "2"]
+  slices: [String] - an array of slice image ids, e.g ["5D7AA828-1EE8-4E63-B4FF-D0706A2BC6A6", "C36CA361-28D0-43F8-B52F-1F6560CABADC", ...]
 }
 ```
 #### Getting a single slice image
 To get a slice image, you should construct a url as follows:</br>
-path: `series/[series id]/slice/[slice image name]`</br>
-for example, if for the series data you got id = `1234`, and the slices array had the slice `"10"`, to get the actual image data for that slice, load `https://viz-assignment.herokuapp.com/series/1234/slice/10`
+path: `series/[series id]/slice/[slice image id]`</br>
+for example, if for the series data you got id = `30E75635-44EB-4CBC-BB3C-B90561603E39`, and the slices array had the slice `"C36CA361-28D0-43F8-B52F-1F6560CABADC"`, to get the actual image data for that slice, load `https://viz-assignment.herokuapp.com/series/30E75635-44EB-4CBC-BB3C-B90561603E39/slice/C36CA361-28D0-43F8-B52F-1F6560CABADC`
 
 #### Implementation
 ##### Swift
