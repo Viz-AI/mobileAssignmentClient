@@ -9,13 +9,13 @@ https://user-images.githubusercontent.com/54849229/160552964-3dfc52ce-e195-411e-
 
 ### API
 
-A basic api for fetching the scan data (series) is online at https://viz-assignment.herokuapp.com/</br>
+A basic api for fetching the scan data (series) is online at https://ios-assigment.herokuapp.com/</br>
 The api description is as follows:
 
-url: https://viz-assignment.herokuapp.com/
+url: https://ios-assigment.herokuapp.com/
 
 #### Getting the series data
-path: `series` (https://viz-assignment.herokuapp.com/series)</br>
+path: `series` (https://ios-assigment.herokuapp.com/series)</br>
 result: a json of the form
 ```
 {
@@ -26,7 +26,7 @@ result: a json of the form
 #### Getting a single slice image
 To get a slice image, you should construct a url as follows:</br>
 path: `series/[series id]/slice/[slice image id]`</br>
-for example, if for the series data you got id = `30E75635-44EB-4CBC-BB3C-B90561603E39`, and the slices array had the slice `"C36CA361-28D0-43F8-B52F-1F6560CABADC"`, to get the actual image data for that slice, load `https://viz-assignment.herokuapp.com/series/30E75635-44EB-4CBC-BB3C-B90561603E39/slice/C36CA361-28D0-43F8-B52F-1F6560CABADC`
+for example, if for the series data you got id = `30E75635-44EB-4CBC-BB3C-B90561603E39`, and the slices array had the slice `"C36CA361-28D0-43F8-B52F-1F6560CABADC"`, to get the actual image data for that slice, load `https://ios-assigment.herokuapp.com/series/30E75635-44EB-4CBC-BB3C-B90561603E39/slice/C36CA361-28D0-43F8-B52F-1F6560CABADC`
 
 #### Implementation
 ##### Swift
